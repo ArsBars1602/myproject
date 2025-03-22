@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание</title>
+    <meta name="description" content="Пример задания">
+    <link rel="stylesheet" href="ars.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+    <script defer src="ars.js"></script>
+</head>
+<body>
+    <header>
+        <img src="https://i.yapx.ru/YidYd.jpg" class="main">
+        <div class="golova">
+            <h1>ВАШ WEB <span class="create">- Создаем отличные сайты</span> <span class="your">Выполним Ваш заказ на высшем уровне</span></h1>
+        </div>
+        <nav>
+            <a href="#why" class="buton">Почему нас выбирают</a>
+            <a href="#how" class="buton">Как мы работаем</a>
+            <a href="#projects" class="buton">Портфолио</a>
+            <a href="#order" class="buton">ЗАКАЗАТЬ</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="slider">
+            <div class="image-text-container">
+                <img src="https://i.yapx.ru/YfHYY.png" class="slide">
+                <h1 class="overlay-text">Сделаем ваш сайт быстро и качественно</h1>
+            </div>
+            <div class="image-text-container">
+                <img src="https://i.yapx.ru/YfHdi.png" class="slide">
+                <h1 class="overlay-text2">У нас работают только настоящие профессионалы</h1>
+            </div>
+            <div class="image-text-container">
+                <img src="https://i.yapx.ru/YfHYY.png" class="slide">
+                <h1 class="overlay-text">20 лет радуем наших клиентов отличными сайтами</h1>
+            </div>
+        </div>
+
+        <div class="sale-container">
+            <h1 class="skidka">🔥Скидка 50%🔥</h1>
+            <p class="skidka2">Ещё:</p>
+            <div id="timer" class="skidka2"></div>
+        </div>
+
+        <section id="why">
+        <h1>Почему нас выбирают</h1>
+            <div class="wkartinki">
+                <div class="whhy">
+                    <img src="https://i.yapx.ru/YjkrI.png" class="why">
+                    <h3>У нас работают лишь высоквалифицированные специалисты</h3>
+                </div>
+                <div class="whhy">
+                    <img src="https://i.yapx.ru/Yjk28.png" class="why">
+                    <h3>Мы даем гарантию на 2 года</h3>
+                </div>
+                <div class="whhy">
+                    <img src="https://i.yapx.ru/Yjk5o.png" class="why">
+                    <h3>Наша техподдержка работает круглосуточно и всегда готова помочь</h3>
+                </div>
+            </div>
+        </section>
+        <section id="how">
+            <h1>Как мы работаем</h1>
+            <ol>
+                <li>Оставьте свою заявку на сайте ниже</li>
+                <li>С вами свяжется наш мэнеджр</li>
+                <li>Мы согласуем с вами проект и начнем разработку</li>
+            </ol>
+        </section>
+        <section id="projects">
+            <h1>Портфолио</h1>
+            <div class="sytyy">
+                <img src="https://i.pinimg.com/736x/9c/c7/f2/9cc7f2dd3d4ce83dd342f9f4b166979e.jpg" class="sity">
+                <img src="https://i.pinimg.com/originals/1b/6b/e3/1b6be3b646bfe18c3d9d891c25731f0f.jpg" class="sity">
+                <img src="https://avatars.mds.yandex.net/get-altay/9728306/2a0000018ab8a9232a12d83828cefbc069be/XXL_height" class="sity">
+            </div>
+        </section>
+        <section id="order">
+            <h1>ЗАКАЗАТЬ</h1>
+            <form>
+                <label for="name">
+                    <span id="wrongname"></span>
+                    <input id="name" type="text" placeholder="Ваше имя">
+                </label>
+                <label for="phone">
+                    <span id="wronnumber"></span>
+                    <input id="phone" type="text" placeholder="Контактный телефон">
+                </label>
+                <label for="sogl" class="sogl">
+                    <span id="netgalochki"></span>
+                    <input id="sogl" type="checkbox">
+                    Вы соглашаетесь на обработку личных данных
+                </label>
+                <button id="knopka">ОТПРАВИТЬ</button>
+            </form>
+        </section>
+    </main>
+
+    <footer><h1>ВАШ WEB</h1></footer>
+</body>
+</html>

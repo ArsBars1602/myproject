@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Comfortaa, Helvetica, sans-serif;
+    background-color: #000000;
+    color: white;
+}
+.main{
+    height: 130px;
+    border-radius: 60px;
+}
+.golova{
+    margin:auto;
+    padding: auto;
+    display: flex;
+    text-align: center;
+}
+.create{
+    font-size: 20px;
+    color: silver;
+}
+.your{
+    font-size: 18px;
+    color: mediumseagreen;
+}
+header {
+    background: linear-gradient(to right, navy, navy, rgb(29, 29, 29));
+    text-align: center;
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+nav {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, rgb(0, 0, 88), rgb(1, 1, 77), rgba(41, 41, 41, 0));
+}
+.buton {
+    margin: auto;
+    text-align: center;
+    height: 40px;
+    border: 2px rgb(197, 197, 197) solid;
+    background-color: rgb(0, 0, 182);
+    width: 240px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    background: linear-gradient(to right, navy, navy, rgb(29, 29, 29));
+    display: flex;
+    flex-direction: column;
+}
+section {
+text-align: center;
+}
+#why {
+    background: linear-gradient(to left, rgb(101, 2, 182), rgb(45, 0, 128), rgb(29, 29, 29));
+}
+#how {
+    background: linear-gradient(to right, rgb(0, 95, 173), navy, rgb(29, 29, 29));
+}
+#projects {
+    background: linear-gradient(to left, rgb(101, 2, 182), rgb(45, 0, 128), rgb(29, 29, 29));
+}
+#order {
+    background: linear-gradient(to right, rgb(0, 95, 173), navy, rgb(29, 29, 29));
+}
+.slide {
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+}
+.image-text-container {
+    position: relative;
+    text-align: center;
+}
+.overlay-text {
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+}
+.overlay-text2{
+
+    position: absolute;
+    top: 39%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+}
+.image-text-container {
+    border-radius: 100px;
+    position: relative;
+    text-align: center;
+    display: none; 
+}
+
+.image-text-container:first-child {
+    display: block; 
+}
+.sale-container {
+    position:fixed;
+    top: 200px;
+    right: 5px;
+    z-index: 1000;
+    height: 50px;
+    width: 120px;
+    background: #ff4d4d;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.skidka {
+    font-size: 10px;
+}
+.skidka2{
+    font-size: 10px;
+}
+
+#timer {
+    font-size: 10px;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#name{
+    border-radius: 20px;
+    margin: 10px;
+    height: 50px;
+}
+#phone{
+    border-radius: 20px;
+    margin: 10px;
+    height: 50px;
+}
+.sogl{
+    border-radius: 20px;
+    margin: 10px;
+}
+#knopka{
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    margin: auto;
+}
+form input::placeholder{
+    text-align: center;
+    font-size: 15px;
+}
+.why{
+    width: 190px;
+}
+.whhy{
+    width: 270px;
+}
+.wkartinki{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ol{
+    margin: 20px;
+    padding: 30px;
+    border-radius: 30px;
+    background: linear-gradient(to right, rgb(0, 0, 88), rgb(1, 1, 77), rgba(41, 41, 41, 0));
+}
+.sity{
+    width: 330px;
+    margin: 6px;
+}
+.sityy{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer{
+    height: 50px;
+    text-align: center;
+}
+#wrongname{
+    color: red;
+}
+#wronnumber{
+    color: red;
+}
+#netgalochki{
+    color: red;
+}
